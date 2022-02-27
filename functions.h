@@ -1,4 +1,7 @@
-#pragma once
+#include <iostream>
+#include <string>
+
+using namespace std;
 
 float my_func(float a, float b, float c)
 {
