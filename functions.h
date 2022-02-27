@@ -1,5 +1,18 @@
 #pragma once
 
+float my_func(float a, float b, float c)
+{
 
+	float result, num1;
 
-float findMinValue(float n1, float n2, float n3);
+	if (a >= b) {
+		num1 = b;
+	}
+	else num1 = a;
+	if (num1 >= c) {
+		result = c;
+	}
+	else result = num1;
+
+	return result;
+}
